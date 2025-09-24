@@ -1,0 +1,170 @@
+[INFO] -  Test Execution Start :
+[INFO] - Loading Properties File Data
+[INFO] - Cleaned directory successfully: test-outputs\allure-results
+[INFO] - Cleaned directory successfully: test-outputs\screenshots
+[WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[INFO] - [TestNG] Running:
+  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - Driver created on:  Firefox
+[INFO] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPhone to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] - Scrolling to the element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] - Scrolling to the element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] - Page title:  Shopping Cart
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[ERROR] - Could not find parameter productPrice
+[INFO] - Waiting for element to be visible:  By.linkText: iPhone
+[INFO] - Scrolling to the element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Getting text from the element:  By.linkText: iPhone  Text:  iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - product name is iPhone
+[INFO] - Waiting for element to be visible:  By.linkText: iPhone
+[INFO] - Scrolling to the element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Getting text from the element:  By.linkText: iPhone  Text:  iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - assertProductisAddedInCart is successfully passed
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - Json path: 'product2.price' in the json file: 'Product_Data' has value: '$123.20'
+[INFO] - Waiting for element to be visible:  By.linkText: iPhone
+[INFO] - Scrolling to the element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Getting text from the element:  By.linkText: iPhone  Text:  iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - product name is iPhone
+[INFO] - Waiting for element to be visible:  By.linkText: iPhone
+[INFO] - Scrolling to the element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[INFO] - Getting text from the element:  By.linkText: iPhone  Text:  iPhone
+[INFO] - Finding element:  By.linkText: iPhone
+[ERROR] - Could not find parameter productPrice
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $123.20
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product price is $123.20
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $123.20
+[INFO] - Finding element:  [unknown locator]
+[INFO] - assertProductDetails is successfully passed
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Json path: 'product1.quantity' in the json file: 'Product_Data' has value: '5'
+[INFO] - adding quantity to product :  5
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  5  in the field:  [unknown locator]
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - Json path: 'product2.quantity' in the json file: 'Product_Data' has value: '3'
+[INFO] - adding quantity to product :  3
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  3  in the field:  [unknown locator]
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'iPhone'
+[INFO] - removeiPhonefrom cart
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be clickable:  By.linkText: Continue Shopping
+[INFO] - Waiting for element to be visible:  By.linkText: Continue Shopping
+[INFO] - Scrolling to the element:  By.linkText: Continue Shopping
+[INFO] - Finding element:  By.linkText: Continue Shopping
+[INFO] - Finding element:  By.linkText: Continue Shopping
+[INFO] - Clicked on the element:  By.linkText: Continue Shopping
+[INFO] - navigate back
+[INFO] - Waiting for element to be clickable:  By.linkText: Checkout
+[INFO] - Waiting for element to be visible:  By.linkText: Checkout
+[INFO] - Scrolling to the element:  By.linkText: Checkout
+[INFO] - Finding element:  By.linkText: Checkout
+[INFO] - Finding element:  By.linkText: Checkout
+[INFO] - Clicked on the element:  By.linkText: Checkout
+[INFO] - Page title:  Checkout
+[INFO] - Screenshot attached to Allure report

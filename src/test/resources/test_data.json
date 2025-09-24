@@ -1,0 +1,15 @@
+{
+  "firstname": "Mahmoud",
+  "lastname": "Saad",
+  "email": "ms@ms.com",
+  "invalidEmail": "mahmoud@m",
+  "telephone": "010123",
+  "password": "123456789",
+  "invalidPassword": "123",
+  "Address": "cairo",
+  "City": "giza",
+  "postCode": "0002",
+  "EnquiryMsg": "test Automation",
+  "AlreadyRegisteredEmail": "m@m.com"
+}
+

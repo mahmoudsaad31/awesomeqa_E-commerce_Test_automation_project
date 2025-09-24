@@ -1,0 +1,15 @@
+1. git init    > Initialize a new Git repository
+2. git add <file>     > Stage a file for commit
+3. git add .     > Stage all changes
+4. git commit -m "message"    > Commit staged changes with a message
+5. git status    > Show the status of the working directory and staging area
+6. git log     > Show commit history
+7. git diff    > Show changes between commits, commit and working tree, etc.
+8. git rm --cached . -r     > Unstage all files
+9. git reset --hard HEAD    > Discard allchanges in the working directory
+
+#to add repo to github
+
+git remote add origin (link to github)       > add repo to github
+git branch master         > main branch or master
+git push origin master    > push to github

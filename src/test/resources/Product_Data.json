@@ -1,0 +1,30 @@
+{
+  "product1": {
+    "name": "MacBook",
+    "price": "$602.00",
+    "quantity": "5"
+  },
+  "product2": {
+    "name": "iPhone",
+    "price": "$123.20",
+    "quantity": "3"
+  },
+  "product3": {
+    "name": "Apple Cinema 30\"",
+    "price": "$110.00",
+    "quantity": "2"
+  },
+  "product4": {
+    "name": "Canon EOS 5D",
+    "price": "$98.00"
+  },
+  "currency": {
+    "euro": "€",
+    "poundSterling": "£",
+    "usDollar": "$"
+  },
+  "searchedData": {
+    "firstSearchItem": "mac",
+    "secondSearchItem": "ipod"
+  }
+}

@@ -30,11 +30,12 @@ public class HomePage {
     private By CheckOut = By.partialLinkText("Checkout");
     private By productPrice = By.cssSelector(".price");
     private By ProductComparison = By.linkText("product comparison");
-
+    private By cartList = By.cssSelector("#cart ul");
 
     // constructor
     public HomePage() {
     }
+
 
     // actions
     public void navigateToHomePage() {
@@ -72,9 +73,9 @@ public class HomePage {
     }
 
 
-    public void assertProductRemovedFromCart(String ProductName) {
-        By product = By.xpath("//*[@id='cart']/ul/li[1]/table/tbody/tr/td[2]");
-        Validations.validateNotEquals(ElementActions.getData(product), ProductName);
+    public void assertProductRemovedFromCarticon(String ProductName) {
+        Waits.sleepForCertainTime(1000);
+        Validations.validateFalse(ElementActions.getHtmlSourceTextFromElement(cartList).contains(ProductName));
         LogsUtils.info("assert" + ProductName + "RemovedFromCart");
     }
 
@@ -137,7 +138,6 @@ public class HomePage {
         return ElementActions.getData(CurrencyLabel);
     }
 
-
     public void assertProductAddedToCart(String ProductName) {
         Waits.sleepForCertainTime(2000);
         Validations.validateContains(getPageMSG(), "Success: You have added " + ProductName + " to your shopping cart!");
@@ -197,4 +197,7 @@ public class HomePage {
         Validations.validatePageTitle(PropertiesUtils.getPropertyValue("ProductComparisonPageTitle"));
     }
 
+    public void assertDirectedToHomePage() {
+        Validations.validatePageTitle(PropertiesUtils.getPropertyValue("HomePageTitle"));
+    }
 }

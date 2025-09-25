@@ -6,10 +6,13 @@
 6. git log     > Show commit history
 7. git diff    > Show changes between commits, commit and working tree, etc.
 8. git rm --cached . -r     > Unstage all files
-9. git reset --hard HEAD    > Discard allchanges in the working directory
+9. git reset --hard HEAD    > Discard all changes in the working directory
 
-#to add repo to github
+#to add repo to gitHub
 
-git remote add origin (link to github)       > add repo to github
+git remote add origin (link to gitHub)       > add repo to gitHub
 git branch master         > main branch or master
-git push origin master    > push to github
+git push origin master    > push to gitHub
+
+git branch -b " name "   > create new branch with name "name"
+git checkout master      > switch to master branch

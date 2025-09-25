@@ -1,0 +1,109 @@
+[INFO] -  Test Execution Start :
+[INFO] - Loading Properties File Data
+[INFO] - Cleaned directory successfully: test-outputs\allure-results
+[INFO] - Cleaned directory successfully: test-outputs\screenshots
+[WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[INFO] - [TestNG] Running:
+  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - Driver created on:  Firefox
+[INFO] - start of method TestGoingToRegisterPageFromHome
+[INFO] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] - Scrolling to the element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be clickable:  By.linkText: Register
+[INFO] - Waiting for element to be visible:  By.linkText: Register
+[INFO] - Scrolling to the element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Clicked on the element:  By.linkText: Register
+[INFO] - Page title:  Register Account
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestNavigatingToRegisterPageFromHome
+[INFO] - start of method TestSuccessfullRegister
+[INFO] - Json path: 'firstname' in the json file: 'test_data' has value: 'Mahmoud'
+[INFO] - Json path: 'lastname' in the json file: 'test_data' has value: 'Saad'
+[INFO] - Json path: 'email' in the json file: 'test_data' has value: 'ms@ms.com'
+[INFO] - Json path: 'telephone' in the json file: 'test_data' has value: '010123'
+[INFO] - Json path: 'password' in the json file: 'test_data' has value: '123456789'
+[INFO] - Json path: 'password' in the json file: 'test_data' has value: '123456789'
+[INFO] - Waiting for element to be visible:  By.id: input-firstname
+[INFO] - Scrolling to the element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Data entered:  Mahmoud  in the field:  By.id: input-firstname
+[INFO] - Waiting for element to be visible:  By.id: input-lastname
+[INFO] - Scrolling to the element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Data entered:  Saad  in the field:  By.id: input-lastname
+[INFO] - Waiting for element to be visible:  By.id: input-email
+[INFO] - Scrolling to the element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Data entered:  ms@ms.com25-09-2025-06-50-56  in the field:  By.id: input-email
+[INFO] - Waiting for element to be visible:  By.id: input-telephone
+[INFO] - Scrolling to the element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Data entered:  010123  in the field:  By.id: input-telephone
+[INFO] - Waiting for element to be visible:  By.id: input-password
+[INFO] - Scrolling to the element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Data entered:  123456789  in the field:  By.id: input-password
+[INFO] - Waiting for element to be visible:  By.id: input-confirm
+[INFO] - Scrolling to the element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Data entered:  123456789  in the field:  By.id: input-confirm
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [name='agree']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [name='agree']
+[INFO] - Scrolling to the element:  By.cssSelector: [name='agree']
+[INFO] - Finding element:  By.cssSelector: [name='agree']
+[INFO] - Finding element:  By.cssSelector: [name='agree']
+[INFO] - Clicked on the element:  By.cssSelector: [name='agree']
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [value='Continue']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [value='Continue']
+[INFO] - Scrolling to the element:  By.cssSelector: [value='Continue']
+[INFO] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] - Clicked on the element:  By.cssSelector: [value='Continue']
+[INFO] - Page title:  Your Account Has Been Created!
+[INFO] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] - Scrolling to the element:  By.linkText: Continue
+[INFO] - Finding element:  By.linkText: Continue
+[INFO] - Finding element:  By.linkText: Continue
+[INFO] - Clicked on the element:  By.linkText: Continue
+[INFO] - Current URL:  https://awesomeqa.com/ui/index.php?route=account/account
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestSuccessfullRegister
+[INFO] - Json path: 'searchedData.firstSearchItem' in the json file: 'Product_Data' has value: 'mac'
+[INFO] - Waiting for element to be visible:  By.name: search
+[INFO] - Scrolling to the element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Data entered:  mac  in the field:  By.name: search
+[INFO] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] - Scrolling to the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Json path: 'searchedData.firstSearchItem' in the json file: 'Product_Data' has value: 'mac'
+[INFO] - Page title:  Search - mac
+[INFO] - Screenshot attached to Allure report

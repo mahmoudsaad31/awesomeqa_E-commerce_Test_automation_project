@@ -78,6 +78,12 @@ public class RegisterPage {
         ElementActions.clickElement(ContinueButton);
     }
 
+    @Step("click Continue Btn")
+    public void clickContinueBtn() {
+        ElementActions.clickElement(By.linkText("Continue"));
+    }
+
+
     @Step("Register New Acount")
     public void registerNewAcount(String firstname, String lastname, String email, String telephone, String password, String confirmPassword) {
         enterFirstName(firstname);

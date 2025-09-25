@@ -15,7 +15,7 @@ public class ShoppingCartPage {
     By checkoutButton = By.linkText("Checkout");
     By continueShoppingButton = By.linkText("Continue Shopping");
     By pageMsg = By.cssSelector(".alert");
-
+    By cartList = By.xpath("//*[@id='content']/form/div/table");
 
     // constructor
     public ShoppingCartPage() {
@@ -53,48 +53,20 @@ public class ShoppingCartPage {
     }
 
 
-    @Step("get product name {productname}")
-    public String getProductName(String productname) {
-        By productNameField = By.linkText(productname);
-        LogsUtils.info("product name is " + ElementActions.getData(productNameField));
-        return ElementActions.getData(productNameField);
-    }
-
-
-    @Step("get product price {productPrice}")
-    public String getProductPrice(String productname) {
-        By productPriceField = RelativeLocator.with(By.xpath("//*[@class='table-responsive']//tbody//td[5]")).straightBelow(By.xpath("//td[.='Unit Price']")).straightRightOf(By.linkText(productname));
-        LogsUtils.info("product price is " + ElementActions.getData(productPriceField));
-        return ElementActions.getData(productPriceField);
-    }
-
-    @Step("assert product {productPrice} added to cart")
-    public void assertProductisAddedInCart(String productname) {
-        Validations.validateEquals(getProductName(productname), productname);
-        LogsUtils.info("assertProductisAddedInCart is successfully passed");
-    }
-
-    @Step("assert product details")
-    public void assertProductDetails(String productname, String productPrice) {
-        String actualProductname = getProductName(productname);
-        String actualProductPrice = getProductPrice(productname);
-        Validations.validateEquals(actualProductname, productname);
-        Validations.validateEquals(actualProductPrice, productPrice);
-        LogsUtils.info("assertProductDetails is successfully passed");
-    }
-
     public String getTextFromMSG() {
         return ElementActions.getData(pageMsg);
+    }
+
+    public void assertProductRemovedfromCart(String productname) {
+        Waits.sleepForCertainTime(1000);
+        Validations.validateFalse(ElementActions.getHtmlSourceTextFromElement(cartList).contains(productname));
+        LogsUtils.info("assert" + productname + "RemovedFromCart");
+
     }
 
     public void assertQuantityUpdatedSuccessfully() {
         Validations.validateContains(getTextFromMSG(), PropertiesUtils.getPropertyValue("shoppingCartPage_msg"));
 
-    }
-
-    public void assertDirectedToCheckOutPage() {
-        Waits.sleepForCertainTime(1000);
-        Validations.validatePageTitle(PropertiesUtils.getPropertyValue("ckeckoutPageTile"));
     }
 
 }

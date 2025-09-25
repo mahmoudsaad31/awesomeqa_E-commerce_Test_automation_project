@@ -3,9 +3,11 @@ package com.awesomeqa;
 
 import com.awesomeqa.drivers.DriverManager;
 import com.awesomeqa.listeners.TestNGListeners;
+import com.awesomeqa.utils.BrowserActions;
 import com.awesomeqa.utils.TimestampUtils;
 import com.awesomeqa.utils.data_Reader.JsonUtils;
 import io.qameta.allure.Step;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 
@@ -35,15 +37,13 @@ public class TestBase {
     @Step("Setup the environment")
     public void setup() {
         DriverManager.initializeDriver();
-
-
     }
 
-//    @AfterSuite(alwaysRun = true)
-//    @Step("shut down the environment")
-//    public void tearDown() {
-//        BrowserActions.closeBrowser();
-//    }
+    @AfterSuite(alwaysRun = true)
+    @Step("shut down the environment")
+    public void tearDown() {
+        BrowserActions.closeBrowser();
+    }
 
 }
 

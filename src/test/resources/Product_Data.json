@@ -1,22 +1,33 @@
 {
   "product1": {
     "name": "MacBook",
-    "price": "$602.00",
+    "price": "$500.00",
     "quantity": "5"
   },
   "product2": {
-    "name": "iPhone",
-    "price": "$123.20",
-    "quantity": "3"
-  },
-  "product3": {
-    "name": "Apple Cinema 30\"",
-    "price": "$110.00",
+    "name": "MacBook Air",
+    "price": "$1,000.00",
     "quantity": "2"
   },
+  "product3": {
+    "name": "iMac",
+    "price": "$100.00",
+    "quantity": "1"
+  },
   "product4": {
-    "name": "Canon EOS 5D",
-    "price": "$98.00"
+    "name": "MacBook Pro",
+    "price": "$2,000.00",
+    "quantity": "3"
+  },
+  "product5": {
+    "name": "iPod Classic",
+    "price": "$100.00",
+    "quantity": "1"
+  },
+  "product6": {
+    "name": "iPod Nano",
+    "price": "$100.00",
+    "quantity": "3"
   },
   "currency": {
     "euro": "€",

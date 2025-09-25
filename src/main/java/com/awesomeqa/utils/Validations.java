@@ -11,12 +11,12 @@ public class Validations {
 
     @Step("Validate True")
     public static void validateTrue(boolean condition, String message) {
-        Assert.assertTrue(condition, message);
+        Assert.assertTrue(condition);
     }
 
     @Step("Validate False")
-    public static void validateFalse(boolean condition, String message) {
-        Assert.assertFalse(condition, message);
+    public static void validateFalse(boolean condition) {
+        Assert.assertFalse(condition);
     }
 
     @Step("Validate Equals")

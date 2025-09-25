@@ -2,8 +2,10 @@ package com.awesomeqa.pages;
 
 import com.awesomeqa.utils.BrowserActions;
 import com.awesomeqa.utils.ElementActions;
+import com.awesomeqa.utils.Validations;
 import com.awesomeqa.utils.Waits;
 import com.awesomeqa.utils.data_Reader.PropertiesUtils;
+import com.awesomeqa.utils.report.LogsUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.locators.RelativeLocator;
@@ -27,7 +29,11 @@ public class CheckOutPage {
     private By zoneField = By.id("input-payment-zone");
     private By privacyPolicy = By.cssSelector("[name=agree]");
     private By continueButtonRegister = By.id("button-register");
+    private By continueButtonPaymentAddress = By.id("button-payment-address");
+    private By continueButtonShippingAddress = By.id("button-shipping-address");
+    private By continueButtonShippingMethod = By.id("button-shipping-method");
     private By continueButtonPaymentMethode = By.id("button-payment-method");
+    private By confirmOrderButton = By.id("button-confirm");
     private By terms_conditions = RelativeLocator.with(By.cssSelector("[name=agree]")).toRightOf(By.linkText("Terms & Conditions"));
 
     // constructor
@@ -121,6 +127,22 @@ public class CheckOutPage {
         ElementActions.clickElement(continueButtonRegister);
     }
 
+    @Step("click Continue Button for PaymentAddress")
+    public void clickContinueButtonPaymentAddress() {
+        ElementActions.clickElement(continueButtonPaymentAddress);
+    }
+
+    @Step("click Continue Button for ShippingAddress")
+    public void clickContinueButtonShippingAddress() {
+        ElementActions.clickElement(continueButtonShippingAddress);
+    }
+
+    @Step("click Continue Button for ShippingMethod")
+    public void clickContinueButtonShippingMethod() {
+        ElementActions.clickElement(continueButtonShippingMethod);
+    }
+
+
     @Step("click agree to Terms & Conditions")
     public void clickAgreeToTerms_Conditions() {
         ElementActions.clickElement(terms_conditions);
@@ -129,6 +151,11 @@ public class CheckOutPage {
     @Step("click Continue Button for payment method ")
     public void clickContinueButtonPaymentMethod() {
         ElementActions.clickElement(continueButtonPaymentMethode);
+    }
+
+    @Step("click confirm order button ")
+    public void clickConfirmOrderButton() {
+        ElementActions.clickElement(confirmOrderButton);
     }
 
 
@@ -159,11 +186,68 @@ public class CheckOutPage {
         clickContinueButtonRegister();
     }
 
+    @Step("Billing Details")
+    public void billingDetails(String firstname, String lastname, String address, String city, String postcode, String country, String state) {
+        enterFirstName(firstname);
+        enterLastName(lastname);
+        enterAddress(address);
+        enterCity(city);
+        enterPostCode(postcode);
+        enterCountry(country);
+        enterState(state);
+
+    }
+
     @Step("Add Payment Method")
     public void addPaymentMethod() {
         clickAgreeToTerms_Conditions();
         clickContinueButtonPaymentMethod();
     }
 
+    @Step("get product name {productname}")
+    public String getProductName(String productname) {
+        By productNameField = By.linkText(productname);
+        LogsUtils.info("product name is " + ElementActions.getData(productNameField));
+        return ElementActions.getData(productNameField);
+    }
+
+
+    @Step("get product price of {productname}")
+    public String getProductPrice(String productname) {
+        By productPriceField = RelativeLocator.with(By.xpath("//*[@class='table-responsive']//tbody//td[4]")).straightRightOf(By.linkText(productname));
+        LogsUtils.info("product price is " + ElementActions.getData(productPriceField));
+        return ElementActions.getData(productPriceField);
+    }
+
+    @Step("get product quantity of {productname}")
+    public String getProductQuantity(String productname) {
+        By productQuantityField = RelativeLocator.with(By.xpath("//*[@class='table-responsive']//tbody//td[3]")).straightRightOf(By.linkText(productname));
+        LogsUtils.info("product quantity is " + ElementActions.getData(productQuantityField));
+        return ElementActions.getData(productQuantityField);
+    }
+
+    // validation
+
+    @Step("assert product details")
+    public void assertProductDetails(String productname, String productPrice, String productQuantity) {
+        String actualProductname = getProductName(productname);
+        String actualProductPrice = getProductPrice(productname);
+        String actualProductQuantity = getProductQuantity(productname);
+
+        Validations.validateEquals(actualProductname, productname);
+        Validations.validateEquals(actualProductPrice, productPrice);
+        Validations.validateEquals(actualProductQuantity, productQuantity);
+        LogsUtils.info("assertProductDetails is successfully passed");
+    }
+
+    public void assertOrderHasBeenPlaced() {
+        Waits.sleepForCertainTime(2000);
+        Validations.validatePageTitle(PropertiesUtils.getPropertyValue("checkoutSuccessTitle"));
+    }
+
+    public void assertDirectedToCheckOutPage() {
+        Waits.sleepForCertainTime(1000);
+        Validations.validatePageTitle(PropertiesUtils.getPropertyValue("ckeckoutPageTile"));
+    }
 
 }

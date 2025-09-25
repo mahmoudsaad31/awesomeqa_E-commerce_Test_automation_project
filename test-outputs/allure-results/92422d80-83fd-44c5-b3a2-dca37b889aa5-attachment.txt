@@ -1,0 +1,25 @@
+[INFO] -  Test Execution Start :
+[INFO] - Loading Properties File Data
+[INFO] - Cleaned directory successfully: test-outputs\allure-results
+[INFO] - Cleaned directory successfully: test-outputs\screenshots
+[WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[INFO] - [TestNG] Running:
+  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - Driver created on:  Firefox
+[INFO] - start of method TestGoingToRegisterPageFromHome
+[INFO] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] - Scrolling to the element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be clickable:  By.linkText: Register
+[INFO] - Waiting for element to be visible:  By.linkText: Register
+[INFO] - Scrolling to the element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Clicked on the element:  By.linkText: Register
+[INFO] - Page title:  Register Account
+[INFO] - Screenshot attached to Allure report

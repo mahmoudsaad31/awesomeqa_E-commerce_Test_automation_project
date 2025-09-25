@@ -67,6 +67,14 @@ public class ElementActions {
         return findElement(locator).getDomAttribute("value");
     }
 
+    // get html source text from element
+    public static String getHtmlSourceTextFromElement(By locator) {
+        Waits.waitforElementToBeVisible(locator);
+        scrollToElement(locator);
+        LogsUtils.info("Getting html source text from element: ", locator.toString());
+        return findElement(locator).getAttribute("innerHTML");
+    }
+
     public static void selectFromDropDownList(By locator, String text) {
         Waits.waitforElementToBeVisible(locator);
         new Select(findElement(locator)).selectByVisibleText(text);

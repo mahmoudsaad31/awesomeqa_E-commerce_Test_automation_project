@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test preserve-order="true" name="C:/Users/mahmo/IdeaProjects/E-Commerce_Test_Automation_Project">
+        <classes>
+            <class name="com.awesomeqa.E2ETests">
+                <methods>
+                    <include name="TestNavigatingToRegisterPageFromHome"/>
+                    <include name="TestSuccessfullRegister"/>
+                    <include name="TestSearchForProduct"/>
+                    <include name="TestAddingMultipleProductsToCart"/>
+                    <include name="TestRemovingProductsFromCart"/>
+                    <include name="TestContinueShoppingToAddAnotherProductsToCart"/>
+                    <include name="TestUpdateProductQuantityInCart"/>
+                    <include name="TestcheckoutDetailsAndBillingDetails"/>
+                    <include name="TestproductsDetailsBeforePlacingOrder"/>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

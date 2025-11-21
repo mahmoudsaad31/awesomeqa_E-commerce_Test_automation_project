@@ -4,7 +4,7 @@
 [INFO] - Cleaned directory successfully: test-outputs\screenshots
 [WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
 [INFO] - [TestNG] Running:
-  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+  C:\Users\mahmo\IdeaProjects\E-Commerce_Test_Automation_Project\testng.xml
 
 [INFO] - Driver created on:  Firefox
 [INFO] - start of method TestGoingToRegisterPageFromHome
@@ -49,7 +49,7 @@
 [INFO] - Finding element:  By.id: input-email
 [INFO] - Finding element:  By.id: input-email
 [INFO] - Finding element:  By.id: input-email
-[INFO] - Data entered:  ms@ms.com25-09-2025-06-50-56  in the field:  By.id: input-email
+[INFO] - Data entered:  ms@ms.com21-11-2025-03-28-03  in the field:  By.id: input-email
 [INFO] - Waiting for element to be visible:  By.id: input-telephone
 [INFO] - Scrolling to the element:  By.id: input-telephone
 [INFO] - Finding element:  By.id: input-telephone

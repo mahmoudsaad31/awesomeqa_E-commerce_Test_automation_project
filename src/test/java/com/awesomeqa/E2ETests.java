@@ -52,10 +52,6 @@ public class E2ETests extends TestBase {
         homePage.clickOnCartIcon();
         homePage.clickOnViewCartIcon();
         homePage.assertDirectedToViewCartPage();
-//        shoppingCartPage.assertProductDetails(getProductData("product1.name"), getProductData("product1.price"));
-//        shoppingCartPage.assertProductDetails(getProductData("product2.name"), getProductData("product2.price"));
-//        shoppingCartPage.assertProductDetails(getProductData("product3.name"), getProductData("product3.price"));
-//        shoppingCartPage.assertProductDetails(getProductData("product4.name"), getProductData("product4.price"));
     }
 
     @Test(dependsOnMethods = "TestAddingMultipleProductsToCart")

@@ -1,0 +1,665 @@
+[INFO] -  Test Execution Start :
+[INFO] - Loading Properties File Data
+[INFO] - Cleaned directory successfully: test-outputs\allure-results
+[INFO] - Cleaned directory successfully: test-outputs\screenshots
+[WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[INFO] - [TestNG] Running:
+  C:\Users\mahmo\IdeaProjects\E-Commerce_Test_Automation_Project\testng.xml
+
+[INFO] - Driver created on:  Firefox
+[INFO] - start of method TestGoingToRegisterPageFromHome
+[INFO] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] - Scrolling to the element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] - Waiting for element to be clickable:  By.linkText: Register
+[INFO] - Waiting for element to be visible:  By.linkText: Register
+[INFO] - Scrolling to the element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Finding element:  By.linkText: Register
+[INFO] - Clicked on the element:  By.linkText: Register
+[INFO] - Page title:  Register Account
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestNavigatingToRegisterPageFromHome
+[INFO] - start of method TestSuccessfullRegister
+[INFO] - Json path: 'firstname' in the json file: 'test_data' has value: 'Mahmoud'
+[INFO] - Json path: 'lastname' in the json file: 'test_data' has value: 'Saad'
+[INFO] - Json path: 'email' in the json file: 'test_data' has value: 'ms@ms.com'
+[INFO] - Json path: 'telephone' in the json file: 'test_data' has value: '010123'
+[INFO] - Json path: 'password' in the json file: 'test_data' has value: '123456789'
+[INFO] - Json path: 'password' in the json file: 'test_data' has value: '123456789'
+[INFO] - Waiting for element to be visible:  By.id: input-firstname
+[INFO] - Scrolling to the element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Finding element:  By.id: input-firstname
+[INFO] - Data entered:  Mahmoud  in the field:  By.id: input-firstname
+[INFO] - Waiting for element to be visible:  By.id: input-lastname
+[INFO] - Scrolling to the element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Finding element:  By.id: input-lastname
+[INFO] - Data entered:  Saad  in the field:  By.id: input-lastname
+[INFO] - Waiting for element to be visible:  By.id: input-email
+[INFO] - Scrolling to the element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Finding element:  By.id: input-email
+[INFO] - Data entered:  ms@ms.com21-11-2025-03-28-03  in the field:  By.id: input-email
+[INFO] - Waiting for element to be visible:  By.id: input-telephone
+[INFO] - Scrolling to the element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Finding element:  By.id: input-telephone
+[INFO] - Data entered:  010123  in the field:  By.id: input-telephone
+[INFO] - Waiting for element to be visible:  By.id: input-password
+[INFO] - Scrolling to the element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Finding element:  By.id: input-password
+[INFO] - Data entered:  123456789  in the field:  By.id: input-password
+[INFO] - Waiting for element to be visible:  By.id: input-confirm
+[INFO] - Scrolling to the element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Finding element:  By.id: input-confirm
+[INFO] - Data entered:  123456789  in the field:  By.id: input-confirm
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [name='agree']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [name='agree']
+[INFO] - Scrolling to the element:  By.cssSelector: [name='agree']
+[INFO] - Finding element:  By.cssSelector: [name='agree']
+[INFO] - Finding element:  By.cssSelector: [name='agree']
+[INFO] - Clicked on the element:  By.cssSelector: [name='agree']
+[INFO] - Waiting for element to be clickable:  By.cssSelector: [value='Continue']
+[INFO] - Waiting for element to be visible:  By.cssSelector: [value='Continue']
+[INFO] - Scrolling to the element:  By.cssSelector: [value='Continue']
+[INFO] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] - Clicked on the element:  By.cssSelector: [value='Continue']
+[INFO] - Page title:  Your Account Has Been Created!
+[INFO] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] - Scrolling to the element:  By.linkText: Continue
+[INFO] - Finding element:  By.linkText: Continue
+[INFO] - Finding element:  By.linkText: Continue
+[INFO] - Clicked on the element:  By.linkText: Continue
+[INFO] - Current URL:  https://awesomeqa.com/ui/index.php?route=account/account
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestSuccessfullRegister
+[INFO] - Json path: 'searchedData.firstSearchItem' in the json file: 'Product_Data' has value: 'mac'
+[INFO] - Waiting for element to be visible:  By.name: search
+[INFO] - Scrolling to the element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Data entered:  mac  in the field:  By.name: search
+[INFO] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] - Scrolling to the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Json path: 'searchedData.firstSearchItem' in the json file: 'Product_Data' has value: 'mac'
+[INFO] - Page title:  Search - mac
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestSearchForProduct
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'MacBook Air'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'MacBook Air'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Air to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Json path: 'product3.name' in the json file: 'Product_Data' has value: 'iMac'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product3.name' in the json file: 'Product_Data' has value: 'iMac'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added iMac to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Json path: 'product4.name' in the json file: 'Product_Data' has value: 'MacBook Pro'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product4.name' in the json file: 'Product_Data' has value: 'MacBook Pro'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Pro to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] - Scrolling to the element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] - Scrolling to the element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] - Page title:  Shopping Cart
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestAddingMultipleProductsToCart
+[INFO] - Json path: 'product4.name' in the json file: 'Product_Data' has value: 'MacBook Pro'
+[INFO] - removeMacBook Profrom cart
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product4.name' in the json file: 'Product_Data' has value: 'MacBook Pro'
+[INFO] - Waiting for element to be visible:  By.xpath: //*[@id='content']/form/div/table
+[INFO] - Scrolling to the element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] - Finding element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] - Getting html source text from element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] - Finding element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] - assertMacBook ProRemovedFromCart
+[INFO] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] - Scrolling to the element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] - Json path: 'product3.name' in the json file: 'Product_Data' has value: 'iMac'
+[INFO] - removing product  iMac  from cart 
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] - Scrolling to the element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] - Json path: 'product3.name' in the json file: 'Product_Data' has value: 'iMac'
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart ul
+[INFO] - Scrolling to the element:  By.cssSelector: #cart ul
+[INFO] - Finding element:  By.cssSelector: #cart ul
+[INFO] - Getting html source text from element:  By.cssSelector: #cart ul
+[INFO] - Finding element:  By.cssSelector: #cart ul
+[INFO] - assertiMacRemovedFromCart
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestRemovingProductsFromCart
+[INFO] - Waiting for element to be clickable:  By.linkText: Continue Shopping
+[INFO] - Waiting for element to be visible:  By.linkText: Continue Shopping
+[INFO] - Scrolling to the element:  By.linkText: Continue Shopping
+[INFO] - Finding element:  By.linkText: Continue Shopping
+[INFO] - Finding element:  By.linkText: Continue Shopping
+[INFO] - Clicked on the element:  By.linkText: Continue Shopping
+[INFO] - Page title:  Your Store
+[INFO] - Json path: 'searchedData.secondSearchItem' in the json file: 'Product_Data' has value: 'ipod'
+[INFO] - Waiting for element to be visible:  By.name: search
+[INFO] - Scrolling to the element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Finding element:  By.name: search
+[INFO] - Data entered:  ipod  in the field:  By.name: search
+[INFO] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] - Scrolling to the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] - Json path: 'searchedData.secondSearchItem' in the json file: 'Product_Data' has value: 'ipod'
+[INFO] - Page title:  Search - ipod
+[INFO] - Json path: 'product5.name' in the json file: 'Product_Data' has value: 'iPod Classic'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product5.name' in the json file: 'Product_Data' has value: 'iPod Classic'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Classic to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Json path: 'product6.name' in the json file: 'Product_Data' has value: 'iPod Nano'
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Json path: 'product6.name' in the json file: 'Product_Data' has value: 'iPod Nano'
+[INFO] - Waiting for element to be visible:  By.className: alert
+[INFO] - Scrolling to the element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Finding element:  By.className: alert
+[INFO] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Nano to your shopping cart!
+×
+[INFO] - Finding element:  By.className: alert
+[INFO] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] - Scrolling to the element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Finding element:  By.cssSelector: #cart button
+[INFO] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] - Scrolling to the element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Finding element:  By.partialLinkText: Cart
+[INFO] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] - Page title:  Shopping Cart
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestContinueShoppingToAddAnotherProductsToCart
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Json path: 'product1.quantity' in the json file: 'Product_Data' has value: '5'
+[INFO] - adding quantity to product :  5
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  5  in the field:  [unknown locator]
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'MacBook Air'
+[INFO] - Json path: 'product2.quantity' in the json file: 'Product_Data' has value: '2'
+[INFO] - adding quantity to product :  2
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  2  in the field:  [unknown locator]
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'MacBook Air'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Json path: 'product5.name' in the json file: 'Product_Data' has value: 'iPod Classic'
+[INFO] - Json path: 'product5.quantity' in the json file: 'Product_Data' has value: '1'
+[INFO] - adding quantity to product :  1
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  1  in the field:  [unknown locator]
+[INFO] - Json path: 'product5.name' in the json file: 'Product_Data' has value: 'iPod Classic'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Json path: 'product6.name' in the json file: 'Product_Data' has value: 'iPod Nano'
+[INFO] - Json path: 'product6.quantity' in the json file: 'Product_Data' has value: '3'
+[INFO] - adding quantity to product :  3
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Data entered:  3  in the field:  [unknown locator]
+[INFO] - Json path: 'product6.name' in the json file: 'Product_Data' has value: 'iPod Nano'
+[INFO] - Click update Button
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] - Scrolling to the element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] - Finding element:  By.cssSelector: .alert
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestUpdateProductQuantityInCart
+[INFO] - Waiting for element to be clickable:  By.linkText: Checkout
+[INFO] - Waiting for element to be visible:  By.linkText: Checkout
+[INFO] - Scrolling to the element:  By.linkText: Checkout
+[INFO] - Finding element:  By.linkText: Checkout
+[INFO] - Finding element:  By.linkText: Checkout
+[INFO] - Clicked on the element:  By.linkText: Checkout
+[INFO] - Page title:  Checkout
+[INFO] - Json path: 'firstname' in the json file: 'test_data' has value: 'Mahmoud'
+[INFO] - Json path: 'lastname' in the json file: 'test_data' has value: 'Saad'
+[INFO] - Json path: 'Address' in the json file: 'test_data' has value: 'cairo'
+[INFO] - Json path: 'City' in the json file: 'test_data' has value: 'giza'
+[INFO] - Json path: 'PostCode' in the json file: 'test_data' has value: '0002'
+[INFO] - Json path: 'Country' in the json file: 'test_data' has value: 'Egypt'
+[INFO] - Json path: 'State' in the json file: 'test_data' has value: 'Al Qahirah'
+[INFO] - Waiting for element to be visible:  By.id: input-payment-firstname
+[INFO] - Scrolling to the element:  By.id: input-payment-firstname
+[INFO] - Finding element:  By.id: input-payment-firstname
+[INFO] - Finding element:  By.id: input-payment-firstname
+[INFO] - Finding element:  By.id: input-payment-firstname
+[INFO] - Data entered:  Mahmoud  in the field:  By.id: input-payment-firstname
+[INFO] - Waiting for element to be visible:  By.id: input-payment-lastname
+[INFO] - Scrolling to the element:  By.id: input-payment-lastname
+[INFO] - Finding element:  By.id: input-payment-lastname
+[INFO] - Finding element:  By.id: input-payment-lastname
+[INFO] - Finding element:  By.id: input-payment-lastname
+[INFO] - Data entered:  Saad  in the field:  By.id: input-payment-lastname
+[INFO] - Waiting for element to be visible:  By.id: input-payment-address-1
+[INFO] - Scrolling to the element:  By.id: input-payment-address-1
+[INFO] - Finding element:  By.id: input-payment-address-1
+[INFO] - Finding element:  By.id: input-payment-address-1
+[INFO] - Finding element:  By.id: input-payment-address-1
+[INFO] - Data entered:  cairo  in the field:  By.id: input-payment-address-1
+[ERROR] - Could not find parameter address
+[INFO] - Waiting for element to be visible:  By.id: input-payment-city
+[INFO] - Scrolling to the element:  By.id: input-payment-city
+[INFO] - Finding element:  By.id: input-payment-city
+[INFO] - Finding element:  By.id: input-payment-city
+[INFO] - Finding element:  By.id: input-payment-city
+[INFO] - Data entered:  giza  in the field:  By.id: input-payment-city
+[INFO] - Waiting for element to be visible:  By.id: input-payment-postcode
+[INFO] - Scrolling to the element:  By.id: input-payment-postcode
+[INFO] - Finding element:  By.id: input-payment-postcode
+[INFO] - Finding element:  By.id: input-payment-postcode
+[INFO] - Finding element:  By.id: input-payment-postcode
+[INFO] - Data entered:  0002  in the field:  By.id: input-payment-postcode
+[INFO] - Waiting for element to be visible:  By.id: input-payment-country
+[INFO] - Finding element:  By.id: input-payment-country
+[INFO] - Waiting for element to be visible:  By.id: input-payment-zone
+[INFO] - Finding element:  By.id: input-payment-zone
+[INFO] - Waiting for element to be clickable:  By.id: button-payment-address
+[INFO] - Waiting for element to be visible:  By.id: button-payment-address
+[INFO] - Scrolling to the element:  By.id: button-payment-address
+[INFO] - Finding element:  By.id: button-payment-address
+[INFO] - Finding element:  By.id: button-payment-address
+[INFO] - Clicked on the element:  By.id: button-payment-address
+[INFO] - Waiting for element to be clickable:  By.id: button-shipping-address
+[INFO] - Waiting for element to be visible:  By.id: button-shipping-address
+[INFO] - Scrolling to the element:  By.id: button-shipping-address
+[INFO] - Finding element:  By.id: button-shipping-address
+[INFO] - Finding element:  By.id: button-shipping-address
+[INFO] - Clicked on the element:  By.id: button-shipping-address
+[INFO] - Waiting for element to be clickable:  By.id: button-shipping-method
+[INFO] - Waiting for element to be visible:  By.id: button-shipping-method
+[INFO] - Scrolling to the element:  By.id: button-shipping-method
+[INFO] - Finding element:  By.id: button-shipping-method
+[INFO] - Finding element:  By.id: button-shipping-method
+[INFO] - Clicked on the element:  By.id: button-shipping-method
+[INFO] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Clicked on the element:  [unknown locator]
+[INFO] - Waiting for element to be clickable:  By.id: button-payment-method
+[INFO] - Waiting for element to be visible:  By.id: button-payment-method
+[INFO] - Scrolling to the element:  By.id: button-payment-method
+[INFO] - Finding element:  By.id: button-payment-method
+[INFO] - Finding element:  By.id: button-payment-method
+[INFO] - Clicked on the element:  By.id: button-payment-method
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestcheckoutDetailsAndBillingDetails
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'MacBook'
+[INFO] - Json path: 'product1.price' in the json file: 'Product_Data' has value: '$500.00'
+[INFO] - Json path: 'product1.quantity' in the json file: 'Product_Data' has value: '5'
+[INFO] - Waiting for element to be visible:  By.linkText: MacBook
+[INFO] - Scrolling to the element:  By.linkText: MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - Getting text from the element:  By.linkText: MacBook  Text:  MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - product name is MacBook
+[INFO] - Waiting for element to be visible:  By.linkText: MacBook
+[INFO] - Scrolling to the element:  By.linkText: MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - Getting text from the element:  By.linkText: MacBook  Text:  MacBook
+[INFO] - Finding element:  By.linkText: MacBook
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $500.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product price is $500.00
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $500.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  5
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product quantity is 5
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  5
+[INFO] - Finding element:  [unknown locator]
+[INFO] - assertProductDetails is successfully passed
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'MacBook Air'
+[INFO] - Json path: 'product2.price' in the json file: 'Product_Data' has value: '$1,000.00'
+[INFO] - Json path: 'product2.quantity' in the json file: 'Product_Data' has value: '2'
+[INFO] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] - Scrolling to the element:  By.linkText: MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - product name is MacBook Air
+[INFO] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] - Scrolling to the element:  By.linkText: MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] - Finding element:  By.linkText: MacBook Air
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product price is $1,000.00
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product quantity is 2
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] - Finding element:  [unknown locator]
+[INFO] - assertProductDetails is successfully passed
+[INFO] - Json path: 'product5.name' in the json file: 'Product_Data' has value: 'iPod Classic'
+[INFO] - Json path: 'product5.price' in the json file: 'Product_Data' has value: '$100.00'
+[INFO] - Json path: 'product5.quantity' in the json file: 'Product_Data' has value: '1'
+[INFO] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] - Scrolling to the element:  By.linkText: iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - product name is iPod Classic
+[INFO] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] - Scrolling to the element:  By.linkText: iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] - Finding element:  By.linkText: iPod Classic
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product price is $100.00
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product quantity is 1
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] - Finding element:  [unknown locator]
+[INFO] - assertProductDetails is successfully passed
+[INFO] - Json path: 'product6.name' in the json file: 'Product_Data' has value: 'iPod Nano'
+[INFO] - Json path: 'product6.price' in the json file: 'Product_Data' has value: '$100.00'
+[INFO] - Json path: 'product6.quantity' in the json file: 'Product_Data' has value: '3'
+[INFO] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] - Scrolling to the element:  By.linkText: iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - product name is iPod Nano
+[INFO] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] - Scrolling to the element:  By.linkText: iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] - Finding element:  By.linkText: iPod Nano
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product price is $100.00
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] - Finding element:  [unknown locator]
+[INFO] - product quantity is 3
+[INFO] - Waiting for element to be visible:  [unknown locator]
+[INFO] - Scrolling to the element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Finding element:  [unknown locator]
+[INFO] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] - Finding element:  [unknown locator]
+[INFO] - assertProductDetails is successfully passed
+[INFO] - Waiting for element to be clickable:  By.id: button-confirm
+[INFO] - Waiting for element to be visible:  By.id: button-confirm
+[INFO] - Scrolling to the element:  By.id: button-confirm
+[INFO] - Finding element:  By.id: button-confirm
+[INFO] - Finding element:  By.id: button-confirm
+[INFO] - Clicked on the element:  By.id: button-confirm
+[INFO] - Page title:  Your order has been placed!
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : TestproductsDetailsBeforePlacingOrder
+[INFO] - Closing the browser
+[INFO] - Test Execution Finished

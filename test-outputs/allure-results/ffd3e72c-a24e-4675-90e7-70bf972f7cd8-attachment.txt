@@ -4,7 +4,7 @@
 [INFO] - Cleaned directory successfully: test-outputs\screenshots
 [WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
 [INFO] - [TestNG] Running:
-  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+  C:\Users\mahmo\IdeaProjects\E-Commerce_Test_Automation_Project\testng.xml
 
 [INFO] - Driver created on:  Firefox
 [INFO] - start of method TestGoingToRegisterPageFromHome

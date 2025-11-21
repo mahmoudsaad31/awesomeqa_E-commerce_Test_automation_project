@@ -4,7 +4,7 @@
 [INFO] - Cleaned directory successfully: test-outputs\screenshots
 [WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
 [INFO] - [TestNG] Running:
-  C:\Users\mahmo\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+  C:\Users\mahmo\IdeaProjects\E-Commerce_Test_Automation_Project\testng.xml
 
 [INFO] - Driver created on:  Firefox
 [INFO] - start of method TestGoingToRegisterPageFromHome
@@ -49,7 +49,7 @@
 [INFO] - Finding element:  By.id: input-email
 [INFO] - Finding element:  By.id: input-email
 [INFO] - Finding element:  By.id: input-email
-[INFO] - Data entered:  ms@ms.com25-09-2025-06-50-56  in the field:  By.id: input-email
+[INFO] - Data entered:  ms@ms.com21-11-2025-03-28-03  in the field:  By.id: input-email
 [INFO] - Waiting for element to be visible:  By.id: input-telephone
 [INFO] - Scrolling to the element:  By.id: input-telephone
 [INFO] - Finding element:  By.id: input-telephone
@@ -394,86 +394,4 @@
 [INFO] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
 ×
 [INFO] - Finding element:  By.cssSelector: .alert
-[INFO] - Screenshot attached to Allure report
-[INFO] - Logs attached to Allure report
-[INFO] - Test passed : TestUpdateProductQuantityInCart
-[INFO] - Waiting for element to be clickable:  By.linkText: Checkout
-[INFO] - Waiting for element to be visible:  By.linkText: Checkout
-[INFO] - Scrolling to the element:  By.linkText: Checkout
-[INFO] - Finding element:  By.linkText: Checkout
-[INFO] - Finding element:  By.linkText: Checkout
-[INFO] - Clicked on the element:  By.linkText: Checkout
-[INFO] - Page title:  Checkout
-[INFO] - Json path: 'firstname' in the json file: 'test_data' has value: 'Mahmoud'
-[INFO] - Json path: 'lastname' in the json file: 'test_data' has value: 'Saad'
-[INFO] - Json path: 'Address' in the json file: 'test_data' has value: 'cairo'
-[INFO] - Json path: 'City' in the json file: 'test_data' has value: 'giza'
-[INFO] - Json path: 'PostCode' in the json file: 'test_data' has value: '0002'
-[INFO] - Json path: 'Country' in the json file: 'test_data' has value: 'Egypt'
-[INFO] - Json path: 'State' in the json file: 'test_data' has value: 'Al Qahirah'
-[INFO] - Waiting for element to be visible:  By.id: input-payment-firstname
-[INFO] - Scrolling to the element:  By.id: input-payment-firstname
-[INFO] - Finding element:  By.id: input-payment-firstname
-[INFO] - Finding element:  By.id: input-payment-firstname
-[INFO] - Finding element:  By.id: input-payment-firstname
-[INFO] - Data entered:  Mahmoud  in the field:  By.id: input-payment-firstname
-[INFO] - Waiting for element to be visible:  By.id: input-payment-lastname
-[INFO] - Scrolling to the element:  By.id: input-payment-lastname
-[INFO] - Finding element:  By.id: input-payment-lastname
-[INFO] - Finding element:  By.id: input-payment-lastname
-[INFO] - Finding element:  By.id: input-payment-lastname
-[INFO] - Data entered:  Saad  in the field:  By.id: input-payment-lastname
-[INFO] - Waiting for element to be visible:  By.id: input-payment-address-1
-[INFO] - Scrolling to the element:  By.id: input-payment-address-1
-[INFO] - Finding element:  By.id: input-payment-address-1
-[INFO] - Finding element:  By.id: input-payment-address-1
-[INFO] - Finding element:  By.id: input-payment-address-1
-[INFO] - Data entered:  cairo  in the field:  By.id: input-payment-address-1
-[ERROR] - Could not find parameter address
-[INFO] - Waiting for element to be visible:  By.id: input-payment-city
-[INFO] - Scrolling to the element:  By.id: input-payment-city
-[INFO] - Finding element:  By.id: input-payment-city
-[INFO] - Finding element:  By.id: input-payment-city
-[INFO] - Finding element:  By.id: input-payment-city
-[INFO] - Data entered:  giza  in the field:  By.id: input-payment-city
-[INFO] - Waiting for element to be visible:  By.id: input-payment-postcode
-[INFO] - Scrolling to the element:  By.id: input-payment-postcode
-[INFO] - Finding element:  By.id: input-payment-postcode
-[INFO] - Finding element:  By.id: input-payment-postcode
-[INFO] - Finding element:  By.id: input-payment-postcode
-[INFO] - Data entered:  0002  in the field:  By.id: input-payment-postcode
-[INFO] - Waiting for element to be visible:  By.id: input-payment-country
-[INFO] - Finding element:  By.id: input-payment-country
-[INFO] - Waiting for element to be visible:  By.id: input-payment-zone
-[INFO] - Finding element:  By.id: input-payment-zone
-[INFO] - Waiting for element to be clickable:  By.id: button-payment-address
-[INFO] - Waiting for element to be visible:  By.id: button-payment-address
-[INFO] - Scrolling to the element:  By.id: button-payment-address
-[INFO] - Finding element:  By.id: button-payment-address
-[INFO] - Finding element:  By.id: button-payment-address
-[INFO] - Clicked on the element:  By.id: button-payment-address
-[INFO] - Waiting for element to be clickable:  By.id: button-shipping-address
-[INFO] - Waiting for element to be visible:  By.id: button-shipping-address
-[INFO] - Scrolling to the element:  By.id: button-shipping-address
-[INFO] - Finding element:  By.id: button-shipping-address
-[INFO] - Finding element:  By.id: button-shipping-address
-[INFO] - Clicked on the element:  By.id: button-shipping-address
-[INFO] - Waiting for element to be clickable:  By.id: button-shipping-method
-[INFO] - Waiting for element to be visible:  By.id: button-shipping-method
-[INFO] - Scrolling to the element:  By.id: button-shipping-method
-[INFO] - Finding element:  By.id: button-shipping-method
-[INFO] - Finding element:  By.id: button-shipping-method
-[INFO] - Clicked on the element:  By.id: button-shipping-method
-[INFO] - Waiting for element to be clickable:  [unknown locator]
-[INFO] - Waiting for element to be visible:  [unknown locator]
-[INFO] - Scrolling to the element:  [unknown locator]
-[INFO] - Finding element:  [unknown locator]
-[INFO] - Finding element:  [unknown locator]
-[INFO] - Clicked on the element:  [unknown locator]
-[INFO] - Waiting for element to be clickable:  By.id: button-payment-method
-[INFO] - Waiting for element to be visible:  By.id: button-payment-method
-[INFO] - Scrolling to the element:  By.id: button-payment-method
-[INFO] - Finding element:  By.id: button-payment-method
-[INFO] - Finding element:  By.id: button-payment-method
-[INFO] - Clicked on the element:  By.id: button-payment-method
 [INFO] - Screenshot attached to Allure report

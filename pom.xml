@@ -10,9 +10,7 @@
     <name>E-Commerce_Test_Automation_Project</name>
     <url>http://maven.apache.org</url>
 
-    <!-- change (target) folder to test-outputs  -->
     <build>
-
 
         <!-- Allure  AspectJ for the functionality of @Step and @Attachment  -->
         <plugins>
